@@ -1,5 +1,5 @@
 jQuery(function(){
 
-    alert('hi');
+    console.log('file connected');
 
 });
