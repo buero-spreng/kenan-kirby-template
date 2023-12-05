@@ -1,13 +1,12 @@
 # Custom Preset for Kirby CMS Websites
 
 ## Get the latest kirby plainkit
-`git clone https://github.com/getkirby/plainkit.git`
+`git clone https://github.com/getkirby/plainkit.git`  
+Replace the **site** and **assets** folder from the **plainkit** with the same folders from this template.
 
-into the same folder and replace the **site** and **assets** folder with the one the folders from this template
 
-
-The heart of this build is the **`site/snippets/layout.php`** which should be loaded in every page template.  
-In the **`site/templates/default.php`** you can find a prebuild use of the layout snippet. There you can see how you are supposed to work with `slots()`.  
+The heart of this build is the **`site/snippets/layout.php`** which is used in every page template.  
+In the **`site/templates/default.php`** you can find a prebuilt use of the layout snippet and the `slots()` method.  
   
 ## There are the slot methods:
 `slot('default')`   most used: this will fill in content inside the `<main>` element  
